@@ -94,6 +94,11 @@ button + button {
         right: 5px;
         top: 5px;
     }
+    >img:first-of-type:hover
+        {
+           transform: rotate(90deg);
+           transition: 1s;
+        }
     >video{
         width: 80%;
     }
@@ -118,6 +123,11 @@ button + button {
             position: absolute;
             right: 5px;
             top: 5px;
+        }
+        >img:first-of-type:hover
+        {
+           transform: rotate(90deg);
+           transition: 1s;
         }
         >img:last-of-type{
             width: 80%;
