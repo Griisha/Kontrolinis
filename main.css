@@ -49,6 +49,10 @@ main {
 .par > a {
     color: rgba(255, 255, 255, 0.753);
 }
+.par > a:hover {
+    color: rgba(77, 11, 11, 0.753);
+    cursor: pointer;
+}
 
 button {
     height: 30px;
