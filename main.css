@@ -63,6 +63,7 @@ button {
 button + button {
     margin-left: -35px; 
 }
+
  p{
     font-size: small;
     font-weight: 100;
@@ -74,3 +75,22 @@ button + button {
     letter-spacing: 5px; 
  }
 
+ @media (max-width:1000px){
+
+    .content{
+        height: 600px;
+    }
+    .buttons{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 600px;
+    }
+    
+    button{
+        display:flex;
+        align-items: center;
+        justify-content:center ;
+        width: 95%;
+    }
+ }
