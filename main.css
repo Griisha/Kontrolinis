@@ -1,3 +1,4 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 main {
     background-image: url(./resources/bg.jpg);
     position:absolute;
@@ -58,23 +59,82 @@ button {
     font-weight: 200;
     margin:30px;
     padding: 0px;
+   
+    >p{
+        font-size: small;
+        font-weight: 100;
+        letter-spacing: 4px;
+        color: rgba(0, 0, 0, 0.753);
+    }
 }
 
 button + button {
     margin-left: -35px; 
 }
 
- p{
-    font-size: small;
-    font-weight: 100;
-    letter-spacing: 4px;
-    color: rgba(255, 255, 255, 0.753);
-}
  h1{
     font-weight: 600;
     letter-spacing: 5px; 
  }
 
+
+ .hidden{
+    display: none;
+ }
+
+ .tabno1{
+    background-color: rgba(0, 0, 0, 0.673);
+    position: relative;
+    color: white;
+    margin: 10% 20%;
+    >img
+    {
+        width: 30px;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+    }
+    >video{
+        width: 80%;
+    }
+    
+    }
+    h2{
+    border-bottom: 1px solid white;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-weight: 500;
+    }
+ .tabno2, .tabno3, .tabno4{
+        background-color: rgba(0, 0, 0, 0.673);
+        position: relative;
+        color: white;
+        margin: 5% 20%;
+        >img:first-of-type
+        {
+            width: 30px;
+            position: absolute;
+            right: 5px;
+            top: 5px;
+        }
+        >img:last-of-type{
+            width: 80%;
+        }
+        
+        
+        
+        h2{
+        border-bottom: 1px solid white;
+        align-self: self-start;
+        margin-left: 10%;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 40px;
+        font-weight: 500;
+        }
+ }    
  @media (max-width:1000px){
 
     .content{
